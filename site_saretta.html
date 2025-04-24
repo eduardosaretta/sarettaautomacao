@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+header {
+    background-color: #002c54;
+    padding: 1rem 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    height: 90px;
+}
+.portf {
+    height: 350px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section {
+    padding: 60px 20px;
+    background-color: white;
+}
+.section:nth-of-type(even) {
+    background-color: #e9eef2;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h2 {
+    color: #002c54;
+    margin-bottom: 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+.cards li {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+footer {
+    background-color: #002c54;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saretta Automação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src='https://i.postimg.cc/0QBKbRsP/logoSAA.png' alt="Logo Saretta Automação" class="logo">
+			<nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre a Saretta Automação</h2>
+            <p>Somos especialistas em desenvolvimento de software para automação industrial e agrícola. Com mais de 6 anos de experiência, oferecemos soluções que unem eficiência, segurança e tecnologia.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2>Serviços</h2>
+            <ul class="cards">
+                <li><strong>Engenharia Elétrica</strong><br>Diagramas, infraestrutura e montagem de painéis.</li>
+                <li><strong>Software para CLP</strong><br>Desenvolvimento e configuração de IHMs e inversores.</li>
+                <li><strong>Pneumática</strong><br>Integração de válvulas e cilindros nos sistemas automatizados.</li>
+                <li><strong>Treinamentos</strong><br>NR-10, NR-12, NR-35 e treinamentos técnicos operacionais.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <p>Veja alguns de nossos projetos em automação industrial e irrigação agrícola.</p>
+            <img src="https://i.postimg.cc/YqkL03c4/painel-site.jpg" alt="Painel elétrico" class="portf">
+            <img src="https://i.postimg.cc/W3WYz3zz/painel-site-agro.jpg" alt="Sistema de irrigação em estufa" class="portf">
+        </div>
+    </section>
+
+    <section id="cursos" class="section">
+        <div class="container">
+            <h2>Cursos Oferecidos</h2>
+            <ul>
+                <li>✔ NR-10 – Segurança em Instalações Elétricas</li>
+                <li>✔ NR-12 – Segurança em Máquinas e Equipamentos</li>
+                <li>✔ NR-35 – Trabalho em Altura</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>📞 (51) 98024-9672 (WhatsApp)<br>
+               ✉️ sarettaeduardo@gmail.com<br>
+               📍 Guaporé – RS<br>
+               CNPJ: 60.045.475/0001-26</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Saretta Automação. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
