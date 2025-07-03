@@ -90,6 +90,38 @@
       color: #666;
       font-size: 14px;
     }
+	.brands {
+	  background: white;
+	  margin: 20px auto;
+	  padding: 50px 10px;
+	  max-width: 820px;
+	  border-radius: 8px;
+	  box-shadow: 0 0 10px #ccc;
+	}
+
+	.brands h2 {
+	  color: #1c2b55;
+	  margin-bottom: 20px;
+	}
+
+	.brand-logos {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  gap: 11px;
+	  align-items: center;
+	  background: #f8f8f8;
+	}
+
+	.brand-logos img {
+	  height: 60px;
+	  object-fit: contain;
+	  transition: transform 0.3s ease;
+	}
+
+	.brand-logos img:hover {
+	  transform: scale(1.1);
+	}
   </style>
 </head>
 <body>
@@ -127,6 +159,17 @@
             </ul>
         </div>
     </section>
+	
+	<section class="brands">
+  <h2>Marcas com as quais trabalhamos</h2>
+  <div class="brand-logos">
+    <img src="https://i.postimg.cc/HLxxVdZg/image.png" alt="Siemens" />
+    <img src="https://i.postimg.cc/sXb1kqJR/image.png" alt="WEG" />
+    <img src="https://i.postimg.cc/L4ZJt4H4/image.png" alt="Schneider" />
+    <img src="https://i.postimg.cc/ZKtCVkR8/image.png" alt="Altus" />
+	<img src="https://i.postimg.cc/fRF4fsWZ/image.png" alt="Mitsubishi" />
+  </div>
+</section>
 
 <section class="contact">
   <h2>Contato</h2>
