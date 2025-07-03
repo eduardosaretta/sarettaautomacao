@@ -1,159 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
-    color: #333;
-}
-header {
-    background-color: #002c54;
-    padding: 1rem 0;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    margin: 0 auto;
-}
-.logo {
-    height: 90px;
-}
-.portf {
-    height: 350px;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-.section {
-    padding: 60px 20px;
-    background-color: white;
-}
-.section:nth-of-type(even) {
-    background-color: #e9eef2;
-}
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-h2 {
-    color: #002c54;
-    margin-bottom: 20px;
-}
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    padding: 0;
-    list-style: none;
-}
-.cards li {
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 15px;
-}
-footer {
-    background-color: #002c54;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-</style
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saretta Automação</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saretta Automação Industrial</title>
+  <link rel="icon" href="https://i.postimg.cc/NFThnH54/LOGO-REDONDO-PNG.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #2c2c2c;
+      text-align: center;
+    }
+
+    header {
+      background: #1c2b55;
+      color: white;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: -5px;
+      font-size: 2rem;
+    }
+
+    .logo-section {
+      background: white;
+      margin: -2px auto -50px;
+      padding: 30px 0;
+      max-width: auto;
+
+    }
+
+    .logo-img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+    }
+
+    section {
+      padding: 20px;
+      background: white;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    section h2 {
+      color: #1c2b55;
+    }
+
+    section p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .contact {
+      margin-top: 20px;
+    }
+
+    .contact p {
+      margin: 6px 0;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebd5a;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 20px;
+      background: #e5e5e5;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src='https://i.postimg.cc/0QBKbRsP/logoSAA.png' alt="Logo Saretta Automação" class="logo">
-			<nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#cursos">Cursos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="sobre" class="section">
-        <div class="container">
-            <h2>Sobre a Saretta Automação</h2>
-            <p>Somos especialistas em desenvolvimento de software para automação industrial e agrícola. Com mais de 6 anos de experiência, oferecemos soluções que unem eficiência, segurança e tecnologia.</p>
-        </div>
-    </section>
+  <header>
+    <h1>SARETTA AUTOMAÇÃO</h1>
+  </header>
 
-    <section id="servicos" class="section">
-        <div class="container">
-            <h2>Serviços</h2>
-            <ul class="cards">
-                <li><strong>Engenharia Elétrica</strong><br>Diagramas, infraestrutura e montagem de painéis.</li>
-                <li><strong>Software para CLP</strong><br>Desenvolvimento e configuração de IHMs e inversores.</li>
-                <li><strong>Pneumática</strong><br>Integração de válvulas e cilindros nos sistemas automatizados.</li>
-                <li><strong>Treinamentos</strong><br>NR-10, NR-12, NR-35 e treinamentos técnicos operacionais.</li>
-            </ul>
-        </div>
-    </section>
+  <div class="logo-section">
+    <img src="https://i.postimg.cc/jqWRNWdC/LOGO-COMPLETO.jpg" alt="Logo Completo" class="logo-img" />
+  </div>
 
-    <section id="projetos" class="section">
-        <div class="container">
-            <h2>Projetos</h2>
-            <p>Veja alguns de nossos projetos em automação industrial e irrigação agrícola.</p>
-            <img src="https://i.postimg.cc/YqkL03c4/painel-site.jpg" alt="Painel elétrico" class="portf">
-            <img src="https://i.postimg.cc/W3WYz3zz/painel-site-agro.jpg" alt="Sistema de irrigação em estufa" class="portf">
-        </div>
-    </section>
+  <section>
+    <h2>Sobre a empresa</h2>
+    <p>
+      Especialistas em automação industrial de máquinas e equipamentos, com foco no desenvolvimento de software para CLP, IHM e sistemas supervisórios. Atuamos também com projetos elétricos conforme as normas de segurança NR10 e NR12.
+    </p>
+  </section>
 
-    <section id="cursos" class="section">
+  <section>
+    <h2>Serviços</h2>
+<ul style="list-style: none; padding: 0; color: #2c2c2c; text-align: left; max-width: 600px; margin: 0 auto;">
+  <li>🖥️ <strong>Software de automação industrial:</strong> desenvolvimento sob medida para CLP, IHM e supervisórios.</li>
+  <li>🔌 <strong>Diagrama elétrico:</strong> projetos elétricos completos e conforme normas de segurança.</li>
+  <li>⚙️ <strong>Consultoria técnica:</strong> suporte para otimização e manutenção de sistemas.</li>
+</ul>
+  </section>
+      <section id="cursos" class="section">
         <div class="container">
             <h2>Cursos Oferecidos</h2>
-            <ul>
-                <li>✔ NR-10 – Segurança em Instalações Elétricas</li>
-                <li>✔ NR-12 – Segurança em Máquinas e Equipamentos</li>
-                <li>✔ NR-35 – Trabalho em Altura</li>
+            <ul style="list-style: none; padding: 0; color: #2c2c2c; text-align: left; max-width: 600px; margin: 0 auto;">
+                <li>✔ <B>NR-10</B> – Segurança em Instalações Elétricas</li>
+                <li>✔ <B>NR-12</B> – Segurança em Máquinas e Equipamentos</li>
+                <li>✔ <B>NR-35</B> – Trabalho em Altura</li>
             </ul>
         </div>
     </section>
 
-    <section id="contato" class="section">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>📞 (51) 98024-9672 (WhatsApp)<br>
-               ✉️ sarettaeduardo@gmail.com<br>
-               📍 Guaporé – RS<br>
-               CNPJ: 60.045.475/0001-26</p>
-        </div>
-    </section>
+<section class="contact">
+  <h2>Contato</h2>
+  <p>📞 (51) 98024-9672 (WhatsApp)</p>
+  <p>✉️ sarettaeduardo@gmail.com</p>
+  <p>📍 Guaporé – RS</p>
+  <p>CNPJ: 60.045.475/0001-26</p>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Saretta Automação. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+  <!-- Botão WhatsApp com imagem -->
+  <a class="whatsapp-btn" href="https://wa.me/5551980249672" target="_blank">
+    <img src="https://i.postimg.cc/MGdjccZd/image.png" alt="WhatsApp" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+    👉 Clique aqui para falar no WhatsApp
+  </a>
+
+  <!-- Link Instagram com imagem -->
+  <div style="margin-top: 20px;">
+    <a href="https://www.instagram.com/sarettaautomacao/" target="_blank" style="color: #1c2b55; font-weight: bold; text-decoration: none;">
+      <img src="https://i.postimg.cc/vHV9PHXZ/image.png" alt="Instagram" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+      Visite nosso Instagram
+    </a>
+  </div>
+</section>
+
+  <footer>
+    © 2025 Saretta Automação Industrial – Todos os direitos reservados
+  </footer>
+
 </body>
 </html>
